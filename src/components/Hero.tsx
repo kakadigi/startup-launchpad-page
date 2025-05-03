@@ -1,12 +1,14 @@
 
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import Globe from "./Globe";
 
 const Hero = () => {
   return (
     <section className="relative pt-16 overflow-hidden">
       <div className="absolute inset-0 bg-hero-pattern -z-10"></div>
       <div className="absolute inset-0 bg-gradient-to-r from-navy/95 to-navy/80 -z-10"></div>
+      <Globe />
       
       <div className="section-container flex flex-col items-center text-white pt-12 md:pt-16">
         <div className="w-full max-w-3xl text-center opacity-0 animate-fade-in" style={{ animationDelay: "200ms" }}>
