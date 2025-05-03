@@ -17,7 +17,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <a href="#" className="text-navy font-bold text-xl md:text-2xl">
-              CodeCraft<span className="text-teal">Studios</span>
+              Karya Kami<span className="text-teal">Digital</span>
             </a>
           </div>
           

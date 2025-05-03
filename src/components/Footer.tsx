@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
           <div className="md:col-span-1">
             <h3 className="text-xl font-bold mb-4">
-              CodeCraft<span className="text-teal">Studios</span>
+              Karya Kami<span className="text-teal">Digital</span>
             </h3>
             <p className="text-gray-300 mb-6">
               Transforming startup ideas into market-ready products with expert software engineering.
@@ -42,7 +42,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2">
-              <li className="text-gray-300">hello@codecraftstudios.com</li>
+              <li className="text-gray-300">hello@karyakamidigital.com</li>
               <li className="text-gray-300">+1 (555) 123-4567</li>
               <li className="text-gray-300">123 Tech Avenue, San Francisco, CA 94107</li>
             </ul>
@@ -51,7 +51,7 @@ const Footer = () => {
         
         <div className="mt-12 pt-8 border-t border-gray-700 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} CodeCraft Studios. All rights reserved.
+            &copy; {new Date().getFullYear()} Karya Kami Digital. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-400 hover:text-teal transition-colors">Privacy Policy</a>
