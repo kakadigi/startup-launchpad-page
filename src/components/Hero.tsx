@@ -24,7 +24,7 @@ const Hero = () => {
             <Button asChild size="lg" className="bg-teal hover:bg-teal-dark text-white text-lg px-8">
               <a href="#contact">Start Your Project</a>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10 text-lg px-8">
+            <Button asChild variant="secondary" size="lg" className="text-navy hover:bg-teal-light hover:text-navy text-lg px-8 border-white/20 bg-white/10 backdrop-blur-sm">
               <a href="#services" className="flex items-center gap-2">
                 Our Services
                 <ArrowRight className="h-5 w-5" />
